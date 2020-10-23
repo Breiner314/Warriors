@@ -1,0 +1,219 @@
+section.home{
+  padding: 600;
+  background-color: black;
+  background-image: url(../img/Fondoweb.png)  ;
+  background-repeat: no-repeat;
+  background-position: -10cm 59%;
+  z-index: 1;
+}
+.navbar-brand img{
+  margin-top: 10px;
+  width: 200px;
+  height: auto;
+  z-index: 2;
+}
+a.nav-link{
+  color: white;
+  font-family:"roboto";
+  font-size: 1.2rem;
+  margin-left: 100px; 
+}
+h2{
+  color: white;
+  margin: 10px 50px 0px;
+  font-size: 3rem;
+  z-index: 3;
+  font-family:"roboto";
+}
+p{
+  margin: 20px 50px 10px;
+  color: white;
+  font-size: 2rem;
+  font-family:"roboto";
+}
+h2.color{
+  color: black;
+  font-size: 2.6rem;
+  text-align: center;
+  font-family:"roboto";
+}
+p.black{
+  
+  color: black;
+  font-size: 1.3rem;
+  font-family:"roboto";
+}
+img.patada{
+  top: 0px;
+  width: 400px;
+  height: auto;
+  margin: 1px 140px 1px;
+}
+img.cuadrado{
+  position: absolute;
+  top: 250px;
+  width: 270px;
+  left: 50px;
+}
+h2.eslogan{
+  position: absolute;
+  top: 280px;
+  left: 50px;
+  color: white;
+  font-size: 3rem;
+  font-family:"roboto";
+}
+.niveles{
+  background: black;
+}
+.nivel{
+  width: 680px;
+  padding: 30px;
+}
+.thumbnail { 
+  position: relative; 
+ } 
+ .caption { 
+   font-size: 3rem;
+   color: white;
+   position: absolute;
+   margin-left: 25px; 
+   top: 40%; 
+   width: 100%; 
+ } 
+.sub{
+  color: #860f1b;
+}
+.parrafo{
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+.title{
+  color:white;
+  
+}
+.posturas{
+  padding: 50px;
+}
+.position{
+  width: 260px;
+}
+.cursos{
+  width: 100%;
+  height: 100%;
+  background-color:black;  
+}
+.col-12{
+  padding: 0% 0%;
+}
+.textos-cursos h2{
+  font-size: 3em;
+  font-family: "roboto";
+  color: white;
+  text-align: center;
+}
+.textos-cursos p{
+  padding: 20px;
+  font-size: 2em;
+  font-family: "roboto";
+  text-align: center;
+  color: white;
+}
+.imgcur{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 200px;
+}
+
+.NC{
+  width: 200px;
+  height: 50px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 6px;
+  border: 2px solid #ffffff;
+  margin: 0px 800px;
+}
+a{
+  color: red;
+}
+.equipo{
+  margin: 50px auto;
+  width: 100%;
+  height: 100%;
+}
+.equipo h2{
+  font-size: 3em;
+  font-family: "roboto";
+  color:red;
+  text-align: center;
+}
+.equipo p{
+  font-size: 1em;
+  font-family: "roboto";
+  margin: auto 50px;
+  padding: 20px;
+}
+.img-equipo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nombres{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nombres h4{
+  color: black;
+  font-size: 2em;
+  font-family: "roboto";
+  margin: 0 30px;
+}
+.footer{
+  display: flex;
+  background-color: black;
+  height: 200px;
+  color: white;
+}
+.redes{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.formu input{
+  margin: 0px 100px 40px; 
+  width: 250px;
+  height: 40px;
+}
+p.parrafob{
+  margin: 10px 100px 20px;
+  font-size: 1em;
+  font-family: "roboto";
+  color: white;
+}
+h5.sig{
+  margin: 0px 0px 0px;
+  text-align: center;
+  font-size: 2rem;
+}
+p.copy{
+  font-size: 1.3rem;
+  margin: 0px 20px 0px;
+}
+input.button{
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #7b0b07;
+  border-radius: 6px;
+  border: 2px solid #ffffff;
+}
+body{
+  overflow-x: hidden;
+}
