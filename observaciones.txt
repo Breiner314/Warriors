@@ -1,0 +1,10 @@
+--Deben renombrar el archivo con los nombres de los integrantes
+--Deben acomodar la sección principal, tiene diferencias con el diseño final
+--Algunos elementos se encuentras desalineados
+--Deben quitar la imagen de fondo que les dejo de captura de pantalla en la carpeta obs
+--Alguna imagenes se encuentran en baja resolución
+--Deben ajustar las secciones que no se parecen al diseño final
+--De la carpeta de recursos deben borrar lo que no van a usar
+--Deben optimizar el css, repiten muchos estilos
+--El sitio web no es responsive
+--Faltan componentes funcionales de bootstrap
