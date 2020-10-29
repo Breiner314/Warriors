@@ -73,6 +73,32 @@ h2.eslogan{
 .thumbnail { 
   position: relative; 
  } 
+ .circulo{
+   width: 490px;
+   height: 490px;
+   margin: 20px 20px 2px 70px;
+   background-color: #850f1a;
+   border-radius: 100%;
+ }
+ .pesas{
+   top: 100px;
+   width: 110px;
+   position: absolute;
+   top: -140px;
+   left: -02px;
+ }
+
+ .arma{
+  width: 110px;
+  left: -02px;
+  position: absolute;
+}
+.iconP{
+  top: -1px;
+  width: 110px;
+  left: -35px;
+  position: absolute;
+}
  .caption { 
    font-size: 3rem;
    color: white;
