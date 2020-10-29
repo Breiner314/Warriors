@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WARRIORS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos/estilos.css">
@@ -11,24 +12,25 @@
     <link rel="shortcut icon" type="imagelx-icon" href="img/favicon.jpg">
 </head>
 <body>
-     <section class="home">
+     <section id="home" class="home">
         <header class="container">
                 <nav class="navbar navbar-expand-lg">
-                    <a href="#" class="navbar-brand"><img src="img/logo.png" alt="logo"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="maiMenu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    <a href="#home" class="navbar-brand"><img src="img/logo.png" alt="logo"></a>
+
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#maiMenu">
+                        <span class="fas fa-bars icon-menu"></span>
                       </button>
                       
-                      <div class="collapse navbar-collapse justify-content-end" id="maiMenu">
-                          <ul class="navbar-nav ">
+                      <div class="collapse navbar-collapse " id="maiMenu">
+                          <ul class="navbar-nav ml-auto">
                               <li class="nav-item">
-                                  <a class="nav-link" href="#">Quiénes somos</a>
+                                  <a class="nav-link" href="#Quiénes somos">Quiénes somos</a>
                               </li>
                               <li class="nav-item">
-                                  <a class="nav-link" href="#">Cursos</a>
+                                  <a class="nav-link" href="#Cursos">Cursos</a>
                               </li>
                               <li class="nav-item">
-                                  <a class="nav-link" href="#">Contáctanos</a>
+                                  <a class="nav-link" href="#Contáctanos">Contáctanos</a>
                               </li>
                           </ul>
                       </div>
@@ -43,7 +45,7 @@
             </div>
         </section>
      </section>
-     <section class="curso">
+     <section id="Quiénes somos" class="curso">
         <div class="container">
             <div class="row justify-content-center">
                 <picture class="col-md-6">
@@ -69,7 +71,7 @@
         </div>
         
      </section>
-     <section class="niveles tex-white">
+     <section id="Cursos" class="niveles tex-white">
          <div class="container">
             <div class="row justify-content-center">
               <aticle class="col-md-6">
@@ -128,7 +130,7 @@
             </div>
         </div>
         <div class="col-12">
-            <section class="equipo">
+            <section id="Contáctanos" class="equipo">
                 <h2>Nuestro equipo </h2>
                    <p>Buscamos como equipo de trabajo que nuestros aprendices  
                    tengan un nuevo estilo de vida generando asi confianza,

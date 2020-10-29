@@ -12,6 +12,10 @@ section.home{
   height: auto;
   z-index: 2;
 }
+.icon-menu{
+  color: white;
+  font-size: 1.6em;
+}
 a.nav-link{
   color: white;
   font-family:"roboto";
@@ -38,7 +42,6 @@ h2.color{
   font-family:"roboto";
 }
 p.black{
-  
   color: black;
   font-size: 1.3rem;
   font-family:"roboto";
@@ -47,7 +50,6 @@ img.patada{
   top: 0px;
   width: 400px;
   height: auto;
-  margin: 1px 140px 1px;
 }
 img.cuadrado{
   position: absolute;
