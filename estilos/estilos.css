@@ -1,16 +1,16 @@
 section.home{
-  padding: 600;
+  padding: 10px;
   background-color: black;
-  background-image: url(../img/Fondoweb.png)  ;
+  background-image: url(../img/IMG.png)  ;
   background-repeat: no-repeat;
-  background-position: -10cm 59%;
-  z-index: 1;
+  background-size: 95% ;
+  background-position: center bottom;
+  height: 600px;
+  background-position: 550px 46%;
 }
 .navbar-brand img{
-  margin-top: 10px;
   width: 200px;
   height: auto;
-  z-index: 2;
 }
 .icon-menu{
   color: white;
@@ -24,9 +24,9 @@ a.nav-link{
 }
 h2{
   color: white;
+  padding: 30px;
   margin: 10px 50px 0px;
   font-size: 3rem;
-  z-index: 3;
   font-family:"roboto";
 }
 p{
@@ -41,8 +41,12 @@ h2.color{
   text-align: center;
   font-family:"roboto";
 }
+.curso{
+  padding: 10px;
+}
 p.black{
   color: black;
+  padding: 20px;
   font-size: 1.3rem;
   font-family:"roboto";
 }
@@ -50,14 +54,10 @@ img.patada{
   top: 0px;
   width: 400px;
   height: auto;
-}
-img.cuadrado{
-  position: absolute;
-  top: 250px;
-  width: 270px;
-  left: 50px;
+  padding: 10px;
 }
 h2.eslogan{
+  background: #850f1a;
   position: absolute;
   top: 280px;
   left: 50px;
@@ -197,7 +197,7 @@ a{
   width: 100%;
   height: 100%;
 }
- h2{
+ h2.nosotros{
   font-size: 3em;
   font-family: "roboto";
   color:red;
