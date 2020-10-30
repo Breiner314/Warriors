@@ -22,7 +22,7 @@ a.nav-link{
   font-size: 1.2rem;
   margin-left: 100px; 
 }
-h2{
+h2.tienes{
   color: white;
   padding: 30px;
   margin: 10px 50px 0px;
@@ -231,47 +231,44 @@ h4{
   font-family: "roboto";
   margin: 0 30px;
 }
-.footer{
-  display: flex;
-  background-color: black;
-  height: 200px;
-  color: white;
-}
-.redes{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-.formu input{
-  margin: 0px 100px 40px; 
-  width: 250px;
-  height: 40px;
-}
-p.parrafob{
-  margin: 10px 100px 20px;
-  font-size: 1em;
-  font-family: "roboto";
-  color: white;
-}
-h5.sig{
-  margin: 0px 0px 0px;
-  text-align: center;
-  font-size: 2rem;
-}
-p.copy{
-  font-size: 1.3rem;
-  margin: 0px 20px 0px;
-}
-input.button{
-  text-decoration: none;
-  text-align: center;
-  font-weight: 600;
-  font-size: 20px;
-  color: #ffffff;
-  background-color: #7b0b07;
-  border-radius: 6px;
-  border: 2px solid #ffffff;
-}
+
 body{
   overflow-x: hidden;
+}
+footer{
+  font-family: "roboto";
+  
+}
+
+.footer-container{
+  background: black;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.footer-main .footer-columna{
+  text-align: right;
+  
+}
+
+.footer-main .footer-columna input[type="email"]{
+  width: 400px;
+  font-size: 26px;
+  padding: 8px;
+}
+ 
+.footer-main .footer-columna input[type="submit"]{
+  background-color: #860f1b;
+  color: #ffffff;
+  padding: 14px ;
+  font-size:1rem;
+  margin-top: 5px;
+  
+}
+.siguenos{
+ text-align: center;
+ font-size: 1.8rem;
+}
+.text{
+  font-size: 1.4rem;
 }
