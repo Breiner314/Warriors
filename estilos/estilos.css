@@ -196,6 +196,9 @@ h2.eslogan{
   width: 100%;
   height: 100%;
 }
+.fotos{
+  width: 300px;
+}
  h2{
   font-size: 3em;
   font-family: "roboto";
@@ -205,34 +208,17 @@ h2.eslogan{
 h4{
  color: black;
  text-align: justify;
- padding: 5% 0;
 }
-.fotos{
-  width: 220px;
-  height: 280px;
-  padding: 5% 0;
-}
-.fotoVA{
-  width: 250px;
-  height: 270px;
-}
-.equipo p{
-  font-size: 1em;
-  font-family: "roboto";
-  margin: auto 50px;
-  padding: 20px;
-}
-.img-equipo{
+.equipo{
+  width: 100%;
+  height: 100%;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 .nombres{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-.nombres{
   color: black;
   font-size: 1.5em;
   font-family: "roboto";
