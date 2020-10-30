@@ -41,9 +41,7 @@ h2.color{
   text-align: center;
   font-family:"roboto";
 }
-.curso{
-  padding: 10px;
-}
+
 p.black{
   color: black;
   padding: 20px;
@@ -65,13 +63,7 @@ h2.eslogan{
   font-size: 3rem;
   font-family:"roboto";
 }
-.niveles{
-  background: black;
-}
-.nivel{
-  width: 680px;
-  padding: 30px;
-}
+
 
 .thumbnail { 
   position: relative; 
@@ -94,9 +86,11 @@ h2.eslogan{
   background:#850f1a;
   border-radius: 100%;
   position: relative;
-  padding: 8rem;
+  height: 100%;
   width: 100%;
-  font-size: 1rem;
+  font-size: 1.7rem;
+  text-align: center;
+  text-align: top;
 }
 .item p img{
   position: absolute;
@@ -111,6 +105,7 @@ h2.eslogan{
 .item p .centro{
   top: 50%;
   transform: translateY(-50%);
+  left:-4rem;
 }
 .item p .abajo{
   top: auto;
@@ -147,31 +142,7 @@ h2.eslogan{
 .position{
   width: 260px;
 }
-.containerDy{
-  margin-left: 0px;
-  margin-right: 0px;
-}
-.cursos{
-  width: 100%;
-  height: 100%;
-  background-color:black;
-}
-.col-12{
-  padding: 0% 0%;
-}
- h2{
-  font-size: 3em;
-  font-family: "roboto";
-  color: white;
-  text-align: center;
-}
-.textos-cursos p{
-  padding: 20px;
-  font-size: 2em;
-  font-family: "roboto";
-  text-align: center;
-  color: white;
-}
+
 .imgcur{
  width: 80%;
  height: 50%;
