@@ -143,43 +143,71 @@ h2.eslogan{
   width: 260px;
 }
 
-.imgcur{
- width: 80%;
- height: 50%;
- margin: 50px 50px;
+.cursos{
+  width: 100%;
+  height: 100%;
+  background-color:black;
 }
 
-
-.NC{
-  width: 200px;
-  height: 50px;
+.tex-titulo{
+  margin-right: 400px;
+  margin-left: auto;
+  text-align: left;
+  padding: 5% 0%;
+  color: #ffffff;
+  font-size: 2em;
+}
+.texto-curso{
+  margin: auto;
+  font-size: 1em;
+  padding: 5% 0;
+  text-align: justify;
+}
+.cap-img-fluid{
+ width: 560px;
+}
+.button{
   text-decoration: none;
   text-align: center;
   font-size: 20px;
-  border-radius: 6px;
-  border: 2px solid #ffffff;
-  margin: 0px 800px;
+  color: #ffffff;
+  padding: 5%;
 }
-a{
-  color: red;
+.NC{
+  width: 170px;
+  height: 50px;
+  background-color: #850f1a;
+  margin: 5% 30%;
+  border-radius: 6%;
+}
+.imgcur{
+ width: 600px;
+ height: 300px;
 }
 .equipo{
   margin: 50px auto;
   width: 100%;
   height: 100%;
 }
- h2.nosotros{
+ h2{
   font-size: 3em;
   font-family: "roboto";
-  color:red;
+  color: black;
   text-align: center;
 }
 h4{
  color: black;
+ text-align: justify;
+ padding: 5% 0;
 }
 .fotos{
-  width: 260px;
-  height: 360px;
+  width: 220px;
+  height: 280px;
+  padding: 5% 0;
+}
+.fotoVA{
+  width: 250px;
+  height: 270px;
 }
 .equipo p{
   font-size: 1em;
