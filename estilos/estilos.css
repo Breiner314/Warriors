@@ -72,28 +72,54 @@ h2.eslogan{
   width: 680px;
   padding: 30px;
 }
+
 .thumbnail { 
   position: relative; 
  } 
- .circulo{
-   width: 490px;
-   height: 490px;
-   margin: 20px 20px 2px 70px;
-   background-color: #850f1a;
-   border-radius: 100%;
- }
- .pesas{
-   top: 100px;
-   width: 110px;
-   position: absolute;
-   top: -140px;
-   left: -02px;
- }
+ .cursos1{
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+.cursos1 div{
+  flex-basis: 50%;
+}
+.item{
+  padding: 2rem;
+}
 
- .arma{
-  width: 110px;
-  left: -02px;
+.item p{
+  background:#850f1a;
+  border-radius: 100%;
+  position: relative;
+  padding: 8rem;
+  width: 100%;
+  font-size: 1rem;
+}
+.item p img{
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+}
+.item p .arriba{
+  left: 3.75rem;
+}
+.item p .centro{
+  top: 50%;
+  transform: translateY(-50%);
+}
+.item p .abajo{
+  top: auto;
+  bottom: 0;
+  left: 3.75rem;
+}
+ 
+.posicion{
+  left: 100px;
 }
 .iconP{
   top: -1px;
@@ -101,14 +127,7 @@ h2.eslogan{
   left: -35px;
   position: absolute;
 }
- .caption { 
-   font-size: 3rem;
-   color: white;
-   position: absolute;
-   margin-left: 25px; 
-   top: 40%; 
-   width: 100%; 
- } 
+
 .sub{
   color: #860f1b;
 }
@@ -117,9 +136,11 @@ h2.eslogan{
   font-size: 1.1rem;
 }
 .title{
+  font-size: 2rem;
   color:white;
   
 }
+
 .posturas{
   padding: 50px;
 }
