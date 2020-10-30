@@ -241,35 +241,18 @@ footer{
   
 }
 
-.footer-container{
-  background: black;
-  color: #ffffff;
-  padding: 20px;
-}
-
-.footer-main .footer-columna{
-  text-align: right;
-  
-}
-
-.footer-main .footer-columna input[type="email"]{
-  width: 400px;
-  font-size: 26px;
-  padding: 8px;
-}
- 
-.footer-main .footer-columna input[type="submit"]{
-  background-color: #860f1b;
-  color: #ffffff;
-  padding: 14px ;
-  font-size:1rem;
-  margin-top: 5px;
-  
-}
 .siguenos{
  text-align: center;
  font-size: 1.8rem;
 }
 .text{
   font-size: 1.4rem;
+}
+.fondo{
+  background: black;
+}
+.color{
+  color: #fff;
+  background-color: #850f1a;
+  border: none;
 }
