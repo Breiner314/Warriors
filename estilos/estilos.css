@@ -1,4 +1,3 @@
-/*seccion1*/
 section.home{
   padding: 10px;
   background-color: black;
@@ -35,17 +34,6 @@ p{
   font-size: 2rem;
   font-family:"roboto";
 }
-h2.eslogan{
-  background: #850f1a;
-  padding: 20px;
-  position: absolute;
-  top: 280px;
-  left: 50px;
-  color: white;
-  font-size: 3rem;
-  font-family:"roboto";
-}
-/*section2*/
 h2.color{
   color: black;
   font-size: 2.6rem;
@@ -68,48 +56,21 @@ img.patada{
   height: auto;
   padding: 10px;
 }
-
+h2.eslogan{
+  background: #850f1a;
+  padding: 20px;
+  position: absolute;
+  top: 280px;
+  left: 50px;
+  color: white;
+  font-size: 3rem;
+  font-family:"roboto";
+}
 
 
 .thumbnail { 
   position: relative; 
  } 
- /*section 3*/
- @media screen and (max-width: 500px){
-  .item p .arriba{
-    left: 3.75rem;
-    width: 80px;
-    height: 80px;
-  }
-  .item p .centro{
-    width: 80px;
-    height:80px;
-    top: 50%;
-    transform: translateY(-80%);
-  }
-  .item p .abajo{
-    width: 80px;
-    height: 80px;
-    top: auto;
-    bottom: 0;
-    left: 3.75rem;
-  }
-  .item{
-    padding: 20px;
-    flex-basis: 50%;
-  }
-  .item p{
-    background:#850f1a;
-    border-radius: 100%;
-    position: relative;
-    font-size: 1rem;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    height: 22rem;
-    width: 22rem;
-  }
-}
  .cursos1{
   align-items: center;
   justify-content: space-between;
@@ -117,23 +78,26 @@ img.patada{
   color: white;
   padding: 60px;
 }
-
+.cursos1 div{
+  flex-basis: 50%;
+}
 .item{
   padding: 2rem;
-  flex-basis: 50%;
 }
 
 .item p{
   background:#850f1a;
   border-radius: 100%;
   position: relative;
+  height: 27rem;
+  width: 27rem;
   padding: 30px;
-  width: 26rem;
-  height: 26rem;
   font-size: 1.6rem;
   text-align: center;
+  margin: 0;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .item p img{
   position: absolute;
@@ -178,24 +142,18 @@ img.patada{
   color:white;
   
 }
-/*section 4*/
+
 .posturas{
   padding: 50px;
-  width: 100%;
 }
 .position{
   width: 260px;
 }
-/*section 5*/
 
 .cursos{
   width: 100%;
   height: 100%;
   background-color:black;
-}
-
-.containerDy{
-  padding: 20px;
 }
 
 .tex-titulo{
@@ -233,12 +191,10 @@ img.patada{
  width: 600px;
  height: 300px;
 }
-/*section 6*/
 .equipo{
   margin: 50px auto;
   width: 100%;
   height: 100%;
-  padding: 100px;
 
 }
 .equi1{
@@ -246,7 +202,6 @@ img.patada{
 }
 .fotos{
   width: 250px;
-  text-align: center;
 }
  h2{
   font-size: 3em;
@@ -277,23 +232,17 @@ h4{
 body{
   overflow-x: hidden;
 }
-/*footer*/
-@media screen and (max-width: 460px){
-.iconos1 .iconos2 .iconos3 .iconos4{
-  width:50px ;
-}
-}
-.iconos1 .iconos2 .iconos3 .iconos4{
-  width: 80px;
-}
-footer{
-  font-family: "roboto";
-  
+
+.rs{
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .siguenos{
  text-align: center;
  font-size: 1.8rem;
+ padding: 5px;
 }
 .text{
   font-size: 1.4rem;
@@ -307,9 +256,22 @@ footer{
   border: none;
 }
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
+footer{
+  font-family: "roboto";
+  background-color: black;
+ 
 }
+
+.textC{
+  font-size: 20px;
+}
+
+.formulario{
+  justify-content: flex-end;
+  text-align: end;
+  padding-top: 3%;
+  padding-left: 15%;
+  padding-left: 20%;
+  
+}
+
